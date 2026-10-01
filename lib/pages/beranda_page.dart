@@ -103,9 +103,7 @@ class BerandaPage extends StatelessWidget {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // =========================================================
-              // SEARCH BAR, FILTER CHIPS, & SUB-HEADER (LINGKARAN MERAH)
-              // =========================================================
+              // Search Bar, Filter Chips, & Sub-Header
               Container(
                 color: bgWarna,
                 padding: const EdgeInsets.only(top: 12, bottom: 8),
@@ -208,9 +206,7 @@ class BerandaPage extends StatelessWidget {
                 ),
               ),
 
-              // =========================================================
-              // KATALOG GRID PRODUK (SESUAI GAMBAR REFERENSI)
-              // =========================================================
+              // Katalog Grid Produk
               Expanded(
                 child: provider.filteredProducts.isEmpty
                     ? Center(
@@ -316,7 +312,7 @@ class BerandaPage extends StatelessWidget {
                                         ),
                                       ),
                                       const SizedBox(height: 8),
-                                      // Tombol Tambah Panjang Sesuai Desain Referensi
+                                      // Tombol Tambah
                                       SizedBox(
                                         width: double.infinity,
                                         height: 36,
